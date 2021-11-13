@@ -1,2 +1,2 @@
-# community-detection
+# topic-modelling-community-detection
 The NMF algorithm is implemented based on Gradient Descent and results are compared with sklearn's default package implementation. Then, the NMF decomposition is used for clustering purposes. Assuming X is a dataset, if we apply NMF on it and get X=WH, W would be the cluster centers and H would be the coefficients for each data point in the clustering. As an example, topic modelling is chosen and topics from a number of documents in the 20 News groups dataset are extracted. NMF is applied to do the clustering and give the topics.A community detection problem on Zachary’s karate club Graph dataset from the Networkx package is also defined, and communities are detected using NMF.
